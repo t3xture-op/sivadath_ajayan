@@ -74,7 +74,7 @@ const Hero = ({ handleScrollTo }) => {
             
             {/* Direct Link to a printable resume or PDF */}
             <a 
-              href="/resume.pdf" 
+              href="/Sivadath_Ajayan_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               download="Sivadath_Ajayan_Resume.pdf"

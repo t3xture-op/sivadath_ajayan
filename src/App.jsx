@@ -110,7 +110,6 @@ function App() {
       <footer className="footer glass">
         <div className="footer-content">
           <p>© {new Date().getFullYear()} Sivadath Ajayan. All rights reserved.</p>
-          <p className="footer-built">Built with React, Vite, and Premium CSS.</p>
         </div>
       </footer>
 

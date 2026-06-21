@@ -40,7 +40,7 @@ const Navbar = ({ activeSection, isLightTheme, toggleTheme, setShowTerminal }) =
       <div className="nav-content">
         <a href="#home" className="logo" onClick={(e) => handleClick(e, '#home')}>
           <span className="logo-initials">SA</span>
-          <span className="logo-text">Sivadath.dev</span>
+          <span className="logo-text">teXture.dev</span>
         </a>
 
         {/* Desktop Nav */}
@@ -55,7 +55,7 @@ const Navbar = ({ activeSection, isLightTheme, toggleTheme, setShowTerminal }) =
               {link.name}
             </a>
           ))}
-          <button 
+          <button
             className="cli-btn"
             onClick={() => setShowTerminal(prev => !prev)}
             title="Open Interactive CLI Console"
