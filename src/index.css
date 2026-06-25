@@ -12,6 +12,7 @@
   --accent-gradient-1: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
   --accent-gradient-2: linear-gradient(135deg, #10b981 0%, #059669 100%);
   --accent-gradient-3: linear-gradient(135deg, #f43f5e 0%, #ec4899 100%);
+  --accent-gradient-4: linear-gradient(135deg, #00ff87 0%, #60efff 50%, #00f2fe 100%);
   --accent-color: #00f2fe;
   --accent-rgb: 0, 242, 254;
   --border-color: rgba(255, 255, 255, 0.07);
@@ -42,6 +43,7 @@ body.light-theme {
   --accent-gradient-1: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   --accent-gradient-2: linear-gradient(135deg, #059669 0%, #10b981 100%);
   --accent-gradient-3: linear-gradient(135deg, #db2777 0%, #f43f5e 100%);
+  --accent-gradient-4: linear-gradient(135deg, #059669 0%, #10b981 50%, #2563eb 100%);
   --accent-color: #2563eb;
   --accent-rgb: 37, 99, 235;
   --border-color: rgba(15, 23, 42, 0.08);

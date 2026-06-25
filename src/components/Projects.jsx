@@ -34,6 +34,24 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
+      title: 'WebVulnScanner',
+      category: 'Cybersecurity — Offensive Security',
+      year: '2026',
+      summary: 'A CLI-based automated web vulnerability scanner that crawls target applications, fuzzes every form and query parameter, and generates professional dark-themed HTML reports. Detects SQL Injection, Cross-Site Scripting, and IDOR vulnerabilities.',
+      stats: '3 Vuln Classes | Auto-Crawl',
+      tech: ['Python', 'BeautifulSoup', 'Requests', 'Jinja2', 'lxml', 'Colorama', 'CLI/argparse'],
+      github: 'https://github.com/t3xture-op/web-vuln-scanner',
+      demo: '#',
+      gradient: 'var(--accent-gradient-4)',
+      bullets: [
+        'Built a modular BFS web crawler with domain-scoping, session-safe URL filtering (skip logout), and automatic form/parameter extraction for comprehensive attack surface mapping.',
+        'Engineered a SQL Injection detection engine supporting 14+ error-based payloads and 4 time-based blind payloads (SLEEP/WAITFOR), with pattern matching against 12 DBMS error signatures.',
+        'Developed a Reflected & Stored XSS scanner using 11 reflected payloads and DOM-aware detection via BeautifulSoup, plus stored XSS verification with unique marker injection.',
+        'Implemented IDOR detection via dual-session comparison, and auto-generated professional dark-themed HTML reports using Jinja2 templating with severity classification.'
+      ]
+    },
+    {
+      id: 2,
       title: 'MalWatch Malware Sandbox',
       category: 'Cybersecurity Analyst',
       year: '2026',
@@ -51,7 +69,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'AI-Enabled Attendance System',
       category: 'AI/ML Developer',
       year: '2024',
@@ -69,7 +87,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'Anand Medicals E-Commerce Platform',
       category: 'Full Stack MERN',
       year: '2023',
@@ -101,7 +119,7 @@ const Projects = () => {
       <div className="container">
         <h2 className="section-title">Featured Projects</h2>
 
-        <div className="projects-grid grid-3">
+        <div className="projects-grid grid-2">
           {projectsData.map((project) => (
             <div key={project.id} className="project-card glass reveal">
               {/* Graphic Header card */}
@@ -285,7 +303,7 @@ const Projects = () => {
         }
 
         .project-bullets-container.expanded {
-          max-height: 350px;
+          max-height: 500px;
           border-top: 1px solid var(--border-color);
           padding-top: 16px;
           margin-bottom: 24px;
